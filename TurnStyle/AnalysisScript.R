@@ -1,5 +1,5 @@
-data = read.csv("C:/Users/tashakay109/Documents/TheDataWearhouse.csv")
-mod.data=data
+data = read.csv("./Data.Wearhouse2.csv")
+mod.data = data
 newlabels = c('Top','Dress','IDK','IDK','IDK','Bot','IDK','Top','Top')
 mod.data$Type = factor(mod.data$Item,labels = newlabels)
  
